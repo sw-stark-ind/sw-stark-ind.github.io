@@ -1,0 +1,29 @@
+aliases:
+ - &filter-only-source
+   branches:
+     only:
+       - source
+
+version: 2
+jobs:
+  deploy-website:
+    docker:
+      # specify the version you desire here
+      - image: circleci/node:8.9.0
+
+    steps:
+      - checkout
+      - run:
+          name: Deploying to GitHub Pages
+          command: |
+            git config --global user.email "SleepWalker@users.noreply.github.com"
+            git config --global user.name "SleepWalker"
+            echo "machine github.com login SleepWalker password $GITHUB_TOKEN" > ~/.netrc
+            cd website && yarn install && GIT_USER=SleepWalker yarn run publish-gh-pages
+
+workflows:
+  version: 2
+  build_and_deploy:
+    jobs:
+      - deploy-website:
+          filters: *filter-only-source
