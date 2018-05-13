@@ -7,6 +7,32 @@
 }
 
 @media only screen and (max-width: 1023px) {
+  /* enable sidenav for mobile users */
+  .onPageNav {
+    display: block;
+    margin-left: 30px;
+  }
+
+  .onPageNav li {
+    line-height: 25px;
+  }
+
+  .onPageNav ul ul {
+    padding-left: 10px;
+  }
+
+  .docMainWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainContainer {
+    order: 2;
+  }
+
+  .mainContainer:not(.blogContainer) .wrapper .post {
+    padding-top: 0;
+  }
 }
 
 @media only screen and (min-width: 1400px) {
