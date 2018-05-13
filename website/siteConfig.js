@@ -13,16 +13,16 @@ const users = [
   {
     caption: 'User1',
     // You will need to prepend the image path with your baseUrl
-    // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    image: '/img/docusaurus.svg',
+    // if it is not '/', like: '/test-site/img/logo.png'.
+    image: '/img/logo.png',
     infoLink: 'https://www.facebook.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: '⚡️ Stark Ind.' /* title for your website */,
-  tagline: '@ Startup Wars',
+  title: 'Stark Ind.' /* title for your website */,
+  tagline: 'Startup Wars',
   url: 'http://sw-stark-ind.github.io' /* your website url */,
   baseUrl: '/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -48,8 +48,8 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/logo.png',
+  footerIcon: 'img/logo.png',
   favicon: 'img/favicon.png',
 
   /* colors for website */
@@ -88,12 +88,13 @@ const siteConfig = {
   onPageNav: 'separate',
 
   /* Open Graph and Twitter card images */
-  ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
+  ogImage: 'img/logo.png',
+  twitterImage: 'img/logo.png',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+    repoUrl: 'https://github.com/sw-stark-ind/sw-stark-ind.github.io',
+    editUrl: 'https://github.com/sw-stark-ind/sw-stark-ind.github.io//tree/source/docs/',
 };
 
 module.exports = siteConfig;
