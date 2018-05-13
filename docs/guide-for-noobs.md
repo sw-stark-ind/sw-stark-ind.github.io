@@ -1,14 +1,19 @@
 ---
-id: doc1
-title: Latin-ish
-sidebar_label: Example Page
+id: guide-for-noobs
+title: Гайд для новичков
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+Товарищъ Ленин ⚡️ (@JIEHiH) ☭December 21, 2017
 
-## Lorem
+Добро пожаловать, в мир **StartupWars(SW)**. Эта статья поможет Вам не потеряться в игровом процессе. Даст минимально нужные знания о механики игры, поможет советом в прокачке.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
+![StartupWars](assets/sw-logo.png)
+
+## Старт
+
+В игре существует 5 компаний: ☂️Umbrella, 📯Pied Piper, 🤖Hooli, ⚡️Stark Ind,  🎩Wayne Ent.
+
+На данном фото размещен профиль, в нем можно пронаблюдать Ваш ник, лвл, опыт, ресурсы,  количество мотивации, заполненность рюкзака, ваши навыки и состояние на следующую битву.
 
 ## Mauris In Code
 
