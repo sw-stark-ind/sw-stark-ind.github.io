@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://sw-stark-ind.github.io/blog</id>
-    <title>⚡️ Stark Ind. Blog</title>
+    <title>Stark Ind. Blog</title>
     <updated>2017-10-24T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="http://sw-stark-ind.github.io/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest ⚡️ Stark Ind. news and events.</subtitle>
-    <logo>http://sw-stark-ind.github.io/img/docusaurus.svg</logo>
+    <subtitle>The best place to stay up-to-date with the latest Stark Ind. news and events.</subtitle>
+    <logo>http://sw-stark-ind.github.io/img/logo.png</logo>
     <rights>Copyright © 2018 ⚡️ Stark Ind.</rights>
     <entry>
         <title type="html"><![CDATA[New Version 1.0.0]]></title>

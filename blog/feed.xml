@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>⚡️ Stark Ind. Blog</title>
+        <title>Stark Ind. Blog</title>
         <link>http://sw-stark-ind.github.io/blog</link>
-        <description>The best place to stay up-to-date with the latest ⚡️ Stark Ind. news and events.</description>
+        <description>The best place to stay up-to-date with the latest Stark Ind. news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>⚡️ Stark Ind. Blog</title>
-            <url>http://sw-stark-ind.github.io/img/docusaurus.svg</url>
+            <title>Stark Ind. Blog</title>
+            <url>http://sw-stark-ind.github.io/img/logo.png</url>
             <link>http://sw-stark-ind.github.io/blog</link>
         </image>
         <copyright>Copyright © 2018 ⚡️ Stark Ind.</copyright>
