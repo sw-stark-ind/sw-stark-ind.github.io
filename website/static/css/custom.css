@@ -1,4 +1,7 @@
 /* your custom css */
+a {
+  color: #ff9d00;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
